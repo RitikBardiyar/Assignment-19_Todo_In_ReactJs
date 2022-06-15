@@ -45,6 +45,8 @@ function TodoApp() {
     setTaskList(tasklist.filter((t) => t.id != id));
   };
 
+  console.log("hello")
+
   return (
     <div className="todo">
       <input
